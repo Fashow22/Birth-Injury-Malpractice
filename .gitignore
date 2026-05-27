@@ -21,6 +21,9 @@ build/
 .cache/
 .netlify/
 
+# Tailwind compiled CSS (regenerated on each Netlify deploy via netlify.toml)
+/assets/css/tailwind.min.css
+
 # Logs
 *.log
 npm-debug.log*

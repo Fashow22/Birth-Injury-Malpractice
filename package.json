@@ -1,0 +1,12 @@
+{
+  "name": "babymalpractice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Alvarez Law Firm — Catastrophic Birth Injury / Baby Malpractice website",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.min.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
