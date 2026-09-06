@@ -100,7 +100,15 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }, { threshold: 0.5 });
 
-    counters.forEach(el => counterObserver.observe(el));
+    counters.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      const inView = rect.top < window.innerHeight && rect.bottom > 0;
+      if (inView) {
+        animateCounter(el);
+      } else {
+        counterObserver.observe(el);
+      }
+    });
   }
 
   function animateCounter(el) {
