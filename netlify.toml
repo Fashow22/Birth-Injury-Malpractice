@@ -29,3 +29,17 @@
   for = "/llms.txt"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+# Collapse .html twins onto Pretty URL paths so Google does not
+# treat /page.html as a separate crawlable URL.
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
+  force = true
