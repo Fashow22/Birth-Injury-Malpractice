@@ -30,8 +30,8 @@
   [headers.values]
     Cache-Control = "public, max-age=3600"
 
-# Collapse .html twins onto Pretty URL paths so Google does not
-# treat /page.html as a separate crawlable URL.
+# Explicit force 301s: Netlify will not parse /*.html (splat cannot sit
+# in the middle of a path) and that pattern does not shadow existing files.
 [[redirects]]
   from = "/index.html"
   to = "/"
@@ -39,7 +39,85 @@
   force = true
 
 [[redirects]]
-  from = "/*.html"
-  to = "/:splat"
+  from = "/cerebral-palsy.html"
+  to = "/cerebral-palsy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hie-birth-asphyxia.html"
+  to = "/hie-birth-asphyxia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fetal-monitoring-failures.html"
+  to = "/fetal-monitoring-failures"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/erbs-palsy-brachial-plexus.html"
+  to = "/erbs-palsy-brachial-plexus"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/vacuum-forceps-injuries.html"
+  to = "/vacuum-forceps-injuries"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hospital-nursing-negligence.html"
+  to = "/hospital-nursing-negligence"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/infant-wrongful-death.html"
+  to = "/infant-wrongful-death"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/defective-birth-products.html"
+  to = "/defective-birth-products"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/practice-areas.html"
+  to = "/practice-areas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources.html"
+  to = "/resources"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/disclaimer.html"
+  to = "/disclaimer"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy"
   status = 301
   force = true
