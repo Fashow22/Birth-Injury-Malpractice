@@ -121,3 +121,179 @@
   to = "/privacy"
   status = 301
   force = true
+
+# Blog HTML files are real files under /blog/, so each duplicate is forced
+# individually. A mid-path splat such as /blog/*.html does not parse.
+[[redirects]]
+  from = "/blog/index.html"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/apgar-score-what-a-low-score-means-birth-injury.html"
+  to = "/blog/apgar-score-what-a-low-score-means-birth-injury"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/birth-injury-statute-of-limitations.html"
+  to = "/blog/birth-injury-statute-of-limitations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/caput-succedaneum-cephalohematoma-subgaleal-hemorrhage-newborn-head-swelling.html"
+  to = "/blog/caput-succedaneum-cephalohematoma-subgaleal-hemorrhage-newborn-head-swelling"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/chorioamnionitis-birth-injury-intraamniotic-infection-triple-i.html"
+  to = "/blog/chorioamnionitis-birth-injury-intraamniotic-infection-triple-i"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/cord-blood-gas-ph-base-deficit-what-the-results-mean.html"
+  to = "/blog/cord-blood-gas-ph-base-deficit-what-the-results-mean"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/early-signs-of-cerebral-palsy.html"
+  to = "/blog/early-signs-of-cerebral-palsy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/emergency-c-section-30-minute-rule-decision-to-incision-time.html"
+  to = "/blog/emergency-c-section-30-minute-rule-decision-to-incision-time"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/erbs-palsy-vs-cerebral-palsy.html"
+  to = "/blog/erbs-palsy-vs-cerebral-palsy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/failure-to-progress-arrest-of-labor-birth-injury.html"
+  to = "/blog/failure-to-progress-arrest-of-labor-birth-injury"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/fetal-growth-restriction-iugr-when-slowed-growth-is-missed.html"
+  to = "/blog/fetal-growth-restriction-iugr-when-slowed-growth-is-missed"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/fetal-heart-rate-tracings-categories.html"
+  to = "/blog/fetal-heart-rate-tracings-categories"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/group-b-strep-newborn-infection-cases.html"
+  to = "/blog/group-b-strep-newborn-infection-cases"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/hie-cooling-therapy-therapeutic-hypothermia.html"
+  to = "/blog/hie-cooling-therapy-therapeutic-hypothermia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/infant-botulism-missed-diagnosis-nara-recall-june-2026.html"
+  to = "/blog/infant-botulism-missed-diagnosis-nara-recall-june-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/meconium-aspiration-syndrome-birth-injury-when-the-response-falls-short.html"
+  to = "/blog/meconium-aspiration-syndrome-birth-injury-when-the-response-falls-short"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/newborn-brain-mri-birth-injury-how-to-read-the-report.html"
+  to = "/blog/newborn-brain-mri-birth-injury-how-to-read-the-report"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/newborn-hypoglycemia-brain-injury-when-low-blood-sugar-is-missed.html"
+  to = "/blog/newborn-hypoglycemia-brain-injury-when-low-blood-sugar-is-missed"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/newborn-jaundice-kernicterus-when-untreated-jaundice-becomes-brain-injury.html"
+  to = "/blog/newborn-jaundice-kernicterus-when-untreated-jaundice-becomes-brain-injury"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/nicu-hospital-acquired-infections-clabsi-late-onset-sepsis.html"
+  to = "/blog/nicu-hospital-acquired-infections-clabsi-late-onset-sepsis"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/pitocin-tachysystole-birth-injury-when-labor-augmentation-is-negligent.html"
+  to = "/blog/pitocin-tachysystole-birth-injury-when-labor-augmentation-is-negligent"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/placental-abruption-birth-injury-when-a-detached-placenta-is-missed.html"
+  to = "/blog/placental-abruption-birth-injury-when-a-detached-placenta-is-missed"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/preeclampsia-hellp-birth-injury-when-blood-pressure-is-mismanaged.html"
+  to = "/blog/preeclampsia-hellp-birth-injury-when-blood-pressure-is-mismanaged"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/shoulder-dystocia-birth-injury-standard-of-care.html"
+  to = "/blog/shoulder-dystocia-birth-injury-standard-of-care"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/umbilical-cord-prolapse-birth-injury-when-minutes-decide.html"
+  to = "/blog/umbilical-cord-prolapse-birth-injury-when-minutes-decide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/uterine-rupture-vbac-birth-injury-when-the-response-is-too-slow.html"
+  to = "/blog/uterine-rupture-vbac-birth-injury-when-the-response-is-too-slow"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/vacuum-extractor-vs-forceps-when-each-is-used.html"
+  to = "/blog/vacuum-extractor-vs-forceps-when-each-is-used"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/vasa-previa-missed-diagnosis-birth-injury-anatomy-scan.html"
+  to = "/blog/vasa-previa-missed-diagnosis-birth-injury-anatomy-scan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/what-is-a-life-care-plan.html"
+  to = "/blog/what-is-a-life-care-plan"
+  status = 301
+  force = true
